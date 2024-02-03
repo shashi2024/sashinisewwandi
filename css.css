@@ -54,16 +54,6 @@
   background-attachment: fixed;
 }
 
- h1{
-    margin: 0rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50rem;
-    color: #0d0049;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
- }
-
 .parallex{
     transition: margin-left .5s;
     -webkit-transition: margin-left .5s;
@@ -99,7 +89,7 @@
   text-align: center;
   text-decoration: solid;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 button{
@@ -128,13 +118,18 @@ button{
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 95%;
-  padding: 2.5rem 0;
+  padding: 1.5rem 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
+
+#section3 #box button{
+  margin-top: 1rem;
+}
+
 #section3 #hidden3{
   padding-top: 0%;
   margin-top: 0%;
@@ -143,7 +138,7 @@ button{
   text-align: left;
   text-decoration: solid;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: none;
   text-shadow: 4px 4px 8px rgba( 5, 5, 5);
 }
@@ -153,7 +148,7 @@ button{
   text-align: left;
   text-decoration: solid;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-bottom: 0%;
   margin-bottom: 0%;
   text-shadow: 0 4px 8px rgba( 5, 5, 5);
@@ -167,16 +162,8 @@ button{
   color: #acacac;
   cursor: pointer;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 2rem;
+  font-size: 1rem;
   text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
-  
-}
-button #myBtn2 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  outline: none;
 }
 
 .centerInner button:hover{color: #faf9fc;}
@@ -241,10 +228,13 @@ button #myBtn2 {
 
 .divInner h2{
   text-align: center;
-  margin: 2%;
+  margin-top: 2em;
+  margin-bottom: 0;
+  margin-left: .6em;
+  margin-right: .6em;
   font-family: 'Salsa', cursive;
-  font-weight: bolder;
-  font-size: 7rem;
+  font-weight: bold;
+  font-size: 7em;
   color: #faf9fc;
   text-align: center;
   vertical-align: middle;
@@ -259,7 +249,7 @@ button #myBtn2 {
   font-weight: bold;
   font-size: 4rem;
   color: #9f9f9f;
-  text-align: center;
+  font-size: 2.5rem;
   vertical-align: middle;
   text-shadow: 3px 3px 6px rgba( 5, 5, 5);
   letter-spacing: .7rem;
@@ -268,23 +258,24 @@ button #myBtn2 {
 .divInner button{
   margin: .2rem;
   border: none;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  /*background-color: transparent;
-  */font-size: 2rem;
+  background: rgba(0, 17, 255, 0.881);
+  background: rgba(1, 45, 190, 0.5);
+  font-size: 3rem;
   cursor: pointer;
   font-style: inherit;
   font-weight: 800;
   box-shadow: 6px 8px 12px rgb(5, 5, 5);
-  border-radius: .4rem;
-  -webkit-border-radius: .4rem;
-  -moz-border-radius: .4rem;
-  -ms-border-radius: .4rem;
-  -o-border-radius: .4rem;
-  color: black;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  color: rgba(2, 2, 2, 0.947);
+  border-color: #7d7d7d;
+  border-width: 1rem;
 }
 
-button:hover {background-color: #7d7d7d;}
+button:hover {background-color: #050873;}
 
 .centerInner{
   margin-top: 18%;
@@ -314,9 +305,9 @@ button:hover {background-color: #7d7d7d;}
   align-items: center;
 }
 .overnav-content a {
-  margin-left: 2.5rem;
+  margin-left: 3rem;
   margin-right: 1rem; 
-  letter-spacing: .4rem;
+  letter-spacing: .3rem;
 }
 
 #myNav .overnav-content a{
