@@ -314,8 +314,14 @@ button:hover {background-color: #7d7d7d;}
   align-items: center;
 }
 .overnav-content a {
-  margin-left: 2rem;
+  margin-left: 2.5rem;
   margin-right: 1rem; 
+  letter-spacing: .4rem;
+}
+
+#myNav .overnav-content a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
 }
 
 .overnav a {
