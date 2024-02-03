@@ -256,8 +256,8 @@ button{
 }
 
 .divInner button{
-  margin: .2rem;
-  border: none;
+  padding: .5rem;
+  padding-top: 0rem;
   background: rgba(0, 17, 255, 0.881);
   background: rgba(1, 45, 190, 0.5);
   font-size: 3rem;
@@ -271,8 +271,6 @@ button{
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
   color: rgba(2, 2, 2, 0.947);
-  border-color: #7d7d7d;
-  border-width: 1rem;
 }
 
 button:hover {background-color: #050873;}
