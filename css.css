@@ -4,8 +4,8 @@
  }
  #cv{
   position: fixed;
-  margin-top: 40%;
-  margin-left: 83%;
+  margin-top: 2%;
+  margin-left: 2%;
  }
 
  #cv-a {
@@ -51,50 +51,6 @@
   opacity: 1;
   right: 0;
 }
- /* #cv a {
-  color: #000000;
- }
-
- #cv-a span:after {
-  content: '\00bb';
-  position: absolute; 
-  opacity: 0;
-  top: 0;
-  size: 5rem;
-  right: -5px;
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
-}
-
-#cv-a:hover  span {
-  padding-right: 3vw;
-}
-
-#cv-a:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
- #cv{
-  height: 10vh;
-  width:10vw;
-  margin-top: 42%;
-  margin-left: 88%;
-  font-size:1.5rem;
-  cursor:pointer;
-  position: fixed;
-  border: none;
-  text-align: center;
-  border-radius: 5px;
-  background-color: #b9b9be;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-} */
 
  #inner1{
     height: 100vh;
