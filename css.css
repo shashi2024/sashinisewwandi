@@ -4,16 +4,16 @@
  }
  #cv{
   position: fixed;
-  margin-top: 42%;
-  margin-left: 85%;
+  margin-top: 40%;
+  margin-left: 83%;
  }
 
  #cv-a {
   display: inline-block;
   border-radius: 3rem;
-  background-color: #9496dd;
+  background-color: #8d8d8d;
   border: none;
-  color: #242b5b;
+  color: #3a3535;
   text-align: center;
   font-size: 2rem;
   padding: 2vh;
