@@ -328,7 +328,8 @@ button:hover {background-color: #050873;}
   margin-top: 18%;
 }
 .overnav {
-  height: 20%;
+  padding-top: 3.5%;
+  height: 23%;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -342,24 +343,26 @@ button:hover {background-color: #050873;}
 
 .overnav-content {
   position: relative;
-  top: 5%;
-  width: 100%;
-  margin-top: 2rem;
+  width: 90%;
+  margin-top: 3rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   letter-spacing: .33rem;
-  display: flex;
   align-items: center;
 }
 .overnav-content a {
-  margin-left: 3rem;
-  margin-right: 1rem; 
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-left: 3rem; 
   letter-spacing: .3rem;
 }
 
 #myNav .overnav-content a{
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .overnav a {
