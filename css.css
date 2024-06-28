@@ -4,8 +4,10 @@
  }
  #cv{
   position: fixed;
-  margin-top: 3%;
-  margin-left: 2%;
+  margin-top: 8%;
+  margin-left: 89%;
+  display: flex;
+  flex-direction: column;
  }
 
  #cv-a {
@@ -13,11 +15,11 @@
   border-radius: 3rem;
   background-color: #8d8d8d;
   border: none;
-  color: #3a3535;
+  color: #322f2f;
   text-align: center;
-  font-size: 2rem;
-  padding: 2vh;
-  width: 200px;
+  font-size: 1.5rem;
+  padding: .8vh;
+  width: 7vw;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -103,6 +105,16 @@
   background-attachment: fixed;
 }
 
+#inner6{
+  height: 100vh;
+  width: 100%;
+  background-image: url("./images/image22.jpg");
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
 .parallex{
     transition: margin-left .5s;
     -webkit-transition: margin-left .5s;
@@ -131,14 +143,14 @@
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1;
-  width: 95%;
+  width: 55%;
   padding: 3rem 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   text-decoration: solid;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-family:  'Montserrat', sans-serif;
+  font-size: 1.5rem;
 }
 
 button{
@@ -160,44 +172,48 @@ button{
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  font-size: 1.5rem;
 }
 
 #section3 #box{
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  width: 95%;
+  width: 80%;
   padding: 1.5rem 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
 }
 
 #section3 #box button{
   margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
 #section3 #hidden3{
   padding-top: 0%;
   margin-top: 0%;
-  margin: .3rem;
+  margin: .1rem;
   color: #f1f1f1;
   text-align: left;
   text-decoration: solid;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-family:  'Montserrat', sans-serif;
+  font-size: 1.5rem;
   display: none;
   text-shadow: 4px 4px 8px rgba( 5, 5, 5);
 }
 
 .list ul{
+  margin-left: 0rem;
+  padding-left: 1.4rem;
   color: #f1f1f1;
   text-align: left;
   text-decoration: solid;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-family:  'Montserrat', sans-serif;
+  font-size: 1.5rem;
   padding-bottom: 0%;
   margin-bottom: 0%;
   text-shadow: 0 4px 8px rgba( 5, 5, 5);
@@ -219,7 +235,7 @@ button{
 
 .custom-bullet {
   position: relative;
-  padding-left: 2rem; /* Adjust as needed */
+  padding-left: 1.4rem; /* Adjust as needed */
 }
 
 .custom-bullet::before {
@@ -239,7 +255,7 @@ button{
   margin-right: auto;
   text-align: center;
   text-decoration: solid;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  'Montserrat', sans-serif;
   font-size: 3rem;
 }
 
@@ -276,44 +292,44 @@ button{
 }
 
 .divInner h2{
-  text-align: center;
   margin-top: 2em;
   margin-bottom: 0;
   margin-left: .6em;
   margin-right: .6em;
-  font-family: 'Salsa', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 7em;
+  font-size: 4.5rem;
   color: #faf9fc;
   text-align: center;
   vertical-align: middle;
-  text-shadow: 3px 3px 6px rgba( 5, 5, 5);
-  letter-spacing: .5rem;
+  text-shadow: 4px 3px 6px rgba( 5, 5, 5);
+  letter-spacing: .6rem;
 }
 
 .divInner h3{
   text-align: center;
   margin: 2%;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 4rem;
   color: #9f9f9f;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   vertical-align: middle;
   text-shadow: 3px 3px 6px rgba( 5, 5, 5);
   letter-spacing: .7rem;
 }
 
 .divInner button{
-  padding: .5rem;
+  padding: .3rem;
   padding-top: 0rem;
-  background: rgba(125, 125, 126, 0.881);
-  background: rgba(109, 109, 109, 0.5);
-  font-size: 3rem;
+  background-color: #aaaaaa;
+  /* background: rgba(125, 125, 126, 0.881);
+  background: rgba(109, 109, 109, 0.5); */
+  font-size: 2rem;
   cursor: pointer;
   font-style: inherit;
   font-weight: 800;
-  box-shadow: 6px 8px 12px rgb(5, 5, 5);
+  box-shadow: 3px 4px 4px rgb(5, 5, 5);
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -338,26 +354,31 @@ button:hover {background-color: #050873;}
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);
   overflow-y: hidden;
-  transition: 0.5s;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .overnav-content {
   position: relative;
   width: 90%;
-  margin-top: 3rem;
+  margin-top: 2.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  letter-spacing: .33rem;
+  letter-spacing: .35rem;
   align-items: center;
+  margin-left: 3.5rem; 
+  word-spacing: .15rem;
 }
 .overnav-content a {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  margin-left: 3rem; 
-  letter-spacing: .3rem;
+  margin: 0 1rem;
 }
 
 #myNav .overnav-content a{
@@ -407,8 +428,8 @@ button:hover {background-color: #050873;}
 }
 
 #toggleBtn{
-  margin-left: 88%;
-    padding: 4%;
+  margin-left: 91.5%;
+  margin-top: 4%;
     font-size:2rem;
     cursor:pointer;
     position: fixed;
@@ -436,19 +457,19 @@ button:hover {background-color: #050873;}
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.5); 
   color: #ffffff;
-  width: 95%;
+  width: 50%;
   padding: 2rem 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   text-decoration: solid;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
 }
 
 .social_media{
   display: flex;
-  gap: 2rem; 
+  gap: 4rem; 
   padding: 1rem;
   justify-content: center;
   cursor:pointer;
@@ -469,7 +490,7 @@ button:hover {background-color: #050873;}
 }
 
 /* Apply styles to the hidden-content */
-.hidden-content {
+#hidden5 .hidden-content {
   display: none;
   position: absolute;
   top: 100%;
@@ -477,8 +498,8 @@ button:hover {background-color: #050873;}
   background-color: #c4c4c4;
   padding: 5px;
   color: black;
-  font-family: 'Merriweather', serif;
-  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
   border-radius: .5rem;
   -webkit-border-radius: .5rem;
   -moz-border-radius: .5rem;
@@ -498,6 +519,37 @@ button:hover {background-color: #050873;}
   /* Add more styles as needed */
 }
 
+#section6 #hidden6{
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.574); 
+  color: #f1f1f1;
+  width: 60%;
+  padding: 2rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  text-decoration: solid;
+  font-size: 1.5rem;
+  text-shadow: 3px 3px 6px rgba( 5, 5, 5);
+}
+
+#hidden-inner1 .project-description ul li{
+  font-size: 1.2rem;
+}
+
+#Section6 #hidden6 ul li{
+  font-size: 1.2rem;
+}
+
+#hidden6 h4{
+  font-style: italic;
+}
+
+#Section6 #hidden6 p{
+  font-size: 10rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
 
 
 

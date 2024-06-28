@@ -211,6 +211,40 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+// document.addEventListener('DOMContentLoaded', function() {
+//   document.addEventListener('click', function(event) {
+//       var content = document.querySelectorAll('.project-description');
+//       var readMoreBtns = document.querySelectorAll('.read-more-btn');
+//       var readLessBtns = document.querySelectorAll('.myBtn');
+
+//       content.forEach((content, index) => {
+//           var isClickInsideContent = content.contains(event.target);
+//           var isClickOnReadMore = readMoreBtns[index].contains(event.target);
+//           var isClickOnReadLess = readLessBtns[index].contains(event.target);
+
+//           if (!isClickInsideContent && !isClickOnReadMore && !isClickOnReadLess && content.style.display === "block") {
+//               content.style.display = "none";
+//               readMoreBtns[index].style.display = "block";
+//               readLessBtns[index].style.display = "none";
+//           }
+//       });
+//   });
+// });
+
+function toggleContent(content, readMoreBtn, readLessBtn) {
+  if (content.style.display === "none") {
+      content.style.display = "block";
+      readMoreBtn.style.display = "none";
+      readLessBtn.style.display = "block";
+  } else {
+      content.style.display = "none";
+      readMoreBtn.style.display = "block";
+      readLessBtn.style.display = "none";
+  }
+}
+
+
+
   
 
 
