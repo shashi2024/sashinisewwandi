@@ -1,48 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      div:hover {
+        --clr: rgb(214, 214, 214);
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sashini Sewwandi</title>
     <link rel="stylesheet" href="css.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Salsa&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div id="cv">
-      <a id="cv-a" href="https://shashi2024.github.io/CV/"><span>CV</span></a>
-      <a id="cv-a" href="https://shashisblogs2000.blogspot.com/"><span>Blog</span></a>
     </div>
     <button id="toggleBtn"><i class="fa-solid fa-bars"></i></button>
     <div id="myNav" class="overnav" style="display: none">
       <button id="closeBtn"></button>
-      <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        ><i class="fa-solid fa-xmark"></i></a> -->
       <div class="overnav-content">
         <a class="nav-button1" href="#section1">HOME</a>
-        <a class="nav-button2" href="#section2">ABOUT ME</a>
-        <a class="nav-button3" href="#section3">QUALIFICATION</a>
-        <a class="nav-button3" href="#section6">PROJECTS</a>
-        <a class="nav-button4" href="#section4">GALLARY</a>
+        <a class="nav-button2" href="#section2">EDUCATION</a>
+        <a class="nav-button3" href="#section3">EXPERIENCE</a>
+        <a class="nav-button3" href="#section6">SKILLS</a>
+        <a class="nav-button4" href="#section4">PROJECTS</a>
         <a class="nav-button5" href="#contact">CONTACT ME</a>
       </div>
     </div>
 
     <section id="main" Class="parallax">
       <section id="section1">
+        <source src="./images/image4.jpg" type="video/mp4">
         <div class="inner" id="inner1">
-          
-          <!-- <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span> -->
-          <div class="centerInner">
-            <div class="divInner">
+          <div class="centerInner-home">
+            <div
+              class="divInner-change"
+              id="innerdiv-home"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <h2>SASHINI SEWWANDI</h2>
               <h3>SOFTWARE DEVELOPER</h3>
-              <!-- <button onClick="myFunction1 ()">+</button> -->
             </div>
-            <div id="hidden1">
-              djjsfjvjsafdqwuidvjasgdvjkdfwqukvdasjdfgwidgquwudfqwjdv
+            <div
+              id="box"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <div>
+                I am a creative individual passionate about<br />
+                technology, learning, and connecting with people. I thrive on
+                challenges, seek new opportunities to grow, and live life fully.
+                With a background in IT, I'm hardworking, responsible, and eager
+                to develop new skills.
+              </div>
+              <a id="cv-a" href="https://shashi2024.github.io/CV/"
+                ><span>My Resume</span></a
+              >
             </div>
           </div>
         </div>
@@ -52,23 +80,127 @@
         <div class="inner" id="inner2">
           <div class="centerInner">
             <div class="divInner">
-              <h2>ABOUT ME</h2>
+              <h2>EDUCATION</h2>
             </div>
             <div id="hidden2">
-              "Hello! I'm Sashini Sewwandi, a curious and creative individual <br>
-               with a passion for exploring the world and connec<span id="dots">...</span><span id="more">ting with people. <br>
-               I thrive on challenges that push me to learn and grow, <br>
-               and I'm constantly seeking out new opportunities to expand my horizons.<br>
-               Whether it's delving into the realms of technology, <br>
-               immersing myself in a good book, <br>
-               or embarking on outdoor adventures, <br>
-               I believe in living life to the fullest.<br> 
-               With a background in Informaton Tecnology, <br>
-               I bring my hard working ability, being a responsible person<br>
-                and desire growing up new skills, to everything I do.<br>
-                 Let's join forces and create something amazing together!" 
-                </span>
-                <button onclick="myFunction2()" id="myBtn">Read more</button>
+              <div class="content" data-aos="zoom-in-right">
+                <div id="image1">
+                  <img src="./images/image28.jpg" alt="Image 4" />
+                </div>
+                <div id="content1">
+                  <h4>
+                    Undergraduate in Sliit University BSc (Hons) Information
+                    Technology Specializing in Information Technology
+                  </h4>
+                </div>
+              </div>
+              <div class="content" data-aos="zoom-in-right">
+                <div id="image1">
+                  <img src="./images/image24.png" alt="Image 4" />
+                </div>
+                <div id="content1">
+                  <h4>Completed ASP.NET MVC Certification Course</h4>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-cc5f735a-5cd5-4dce-bb74-7e131fff6446/"
+                    style="color: rgb(144, 182, 235)"
+                    >Verify Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="content" data-aos="zoom-in-right">
+                <div id="image1">
+                  <img src="./images/image27.png" alt="Image 4" />
+                </div>
+                <div id="content1">
+                  <h4>
+                    Completed Azure Fundamentals Certification
+                    <br />(AZ-900T00-A)
+                  </h4>
+                  <a
+                    href="https://www.linkedin.com/posts/sashini-sewwandi-0b09a7241_devops-azure-microsoft-activity-7219273371824345090-FIm2?utm_source=share&utm_medium=member_desktop"
+                    style="color: rgb(144, 182, 235)"
+                    >Verify Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="content" data-aos="zoom-in-right">
+                <div id="image1">
+                  <img src="./images/image29.png" alt="Image 4" />
+                </div>
+                <div id="content1">
+                  <h4>Completed DevOps Fundamental Certification Course</h4>
+                  <a
+                    href="https://alison.com/certification/check/ed5fb23ed4"
+                    style="color: rgb(144, 182, 235)"
+                    >Verify Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="content" data-aos="zoom-in-right">
+                <div id="image1">
+                  <img src="./images/image25.png" alt="Image 4" />
+                </div>
+                <div id="content1">
+                  <h4>
+                    Completed Docker for Intermediate Level Certification
+                    <br />Course
+                  </h4>
+                  <a
+                    href="https://olympus.mygreatlearning.com/courses/49464/certificate"
+                    style="color: rgb(144, 182, 235)"
+                    >Verify Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="content" data-aos="zoom-in-right">
+                <div id="image1">
+                  <img src="./images/image20.png" alt="Image 4" />
+                </div>
+                <div id="content1">
+                  <h4>Completed Programming in Python Certification Course</h4>
+                  <a
+                    href="https://shashi2024.github.io/PythonCertificate/"
+                    style="color: rgb(144, 182, 235)"
+                    >Verify Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="content" data-aos="zoom-in-right">
+                <div id="image1">
+                  <img src="./images/image19.png" alt="Image 4" />
+                </div>
+                <div id="content1">
+                  <h4>Completed Foundational C# Certification Course</h4>
+                  <a
+                    href="https://www.freecodecamp.org/certification/fccffd9d3c7-1db7-4717-8485-6cd5382f7011/foundational-c-sharp-with-microsoft"
+                    style="color: rgb(144, 182, 235)"
+                    >Verify Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="content" data-aos="zoom-in-right">
+                <div id="image1">
+                  <img src="./images/image23.png" alt="Image 4" />
+                </div>
+                <div id="content1">
+                  <h4>Completed Machine Learning Certification course</h4>
+                  <a
+                    href="https://shashi2024.github.io/MLcertificate/"
+                    style="color: rgb(144, 182, 235)"
+                    >Verify Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="content" data-aos="zoom-in-right">
+                <div id="image1">
+                  <img src="./images/image26.jpg" alt="Image 4" />
+                </div>
+                <div id="content1">
+                  <h4>
+                    Completed Level 4 (Intermediate Level) - English Course
+                  </h4>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -78,31 +210,27 @@
         <div class="inner" id="inner3">
           <div class="centerInner">
             <div class="divInner">
-              <h2>QUALIFICATION</h2>
+              <h2>EXPERIENCE</h2>
             </div>
             <div id="box">
-              <div class="list">
-                <ul>
-                  <li>Engaged as a Sales Assistant in Measuring Instruments - LV at Marlbo Trading Company from December 2021 to February 2024, contributing over two years of dedicated service.</li>
-                  <li>Undergraduate in Sliit University BSc (Hons) Information Technology Specializing in Information Technology</li>
-                </ul>
+              <div class="container" data-aos="zoom-in">
+                <img src="./images/image3.jpg" alt="marlbo" class="image" />
+                <div class="overlay">
+                  As a Sales Assistant at Marlbo Trading Company (Dec 2021 - Feb 2024), I excelled in customer service, assisting with measuring instruments, and earned Best Employee in Feb 2023. I developed sales strategies, ensured customer satisfaction, and collaborated with team members to meet sales targets efficiently.
+                </div>
               </div>
-              <div id="hidden3">
-                  <span id="dots2">...</span>
-                  <span id="more2"> 
-                    <div class="custom-bullet">Successfully Completed a Certificate Course about ASP.NET MVC Complete Guide using .NET Core with Udemy E-Learning Platform </div>
-                    <div class="custom-bullet">Successfully completed Certificate Course about Foundational C# with Microsoft Certification in freeCodeCamp online platform </div>
-                    <div class="custom-bullet">Successfully completed Certificate Course about Programming in Python - 1 in Open Learning Platform - University of Moratuwa </div>
-                    <div class="custom-bullet">Successfully completed Machine Learning course in Miha Institute</div>
-                    <div class="custom-bullet">Successfully completed level 4 (Intermediate Level) in English course in Aquinas College of Higher Education</div>
-                    <div class="custom-bullet">Currently Studying a Certificate Course about Back End Development and APIs in freeCodeCamp & Certificate Course about Linux Operating System in eDX</div>
-                    <div class="custom-bullet">Experianced in using  CSS, Tailwind CSS, Bootstrap, ReactJS, MongoDB, NodeJS, Express, Andriod Studio, SQL, .NET Framework, GitHub Version CVControlling, Agile Methodology, API Handling, MNV Architechture, ASP.NET MNV softwares and C , C+ , C#, Java, Python, HTML , JavaScript Languages efficiancy</div>
-                    <div class="custom-bullet">Currently Following Artificial Intelligence</div>
-                    <div class="custom-bullet">Former head prefect in Kalutara Balika Vidyalaya National School</div>
-                    <div class="custom-bullet">Worked as a director in Leo Club of Royal Achievers in Kalutara</div>
-                  </span>
+              <div class="container" data-aos="zoom-in">
+                <img src="./images/image2.jpg" alt="marlbo" class="image" />
+                <div class="overlay">
+                  Served as Director and Charity Project Leader at Leo Club of Royal Achievers (2021-2024). Led and coordinated award-winning projects: Raktha Jeewa (Blood Donation), Miyuru Handawa (Music Program for Students), and The Winner (Free Online Classes), positively impacting education, health, and student engagement in Kalutara.
+                </div>
               </div>
-              <button onclick="myFunction3()" id="myBtn2">Read more</button>
+              <div class="container" data-aos="zoom-in">
+                <img src="./images/image5.jpg" alt="marlbo" class="image" />
+                <div class="overlay">
+                  As Former Head Prefect at Kalutara Balika National School (2017-2018), I demonstrated leadership, fostered teamwork, and collaborated to achieve school goals. My role involved guiding peers, organizing events, and ensuring a positive environment, contributing to the school's overall success in Kalutara.
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -112,326 +240,37 @@
         <div class="inner" id="inner6">
           <div class="centerInner">
             <div class="divInner">
-              <h2>PROJECTS</h2>
+              <h2>SKILLS</h2>
             </div>
             <div id="hidden6">
-              <div id="hidden-inner1">
-                  <p><strong><u>1. Blog Posting Web Site using ASP.NET MVC (Ongoing)</u></strong></p>
-                  <button onclick="toggleContent(this.nextElementSibling, this, this.nextElementSibling.querySelector('.myBtn')); return false;" class="myBtn read-more-btn">Read more</button>
-                  <div class="project-description" style="display: none;">
-                    <h4>Duration: June 2024 - Present</h4>
-                    <h4>Repository: <a href="https://github.com/shashi2024/ASP.NET-MVC-project">GitHub</a></h4>
-                    <h4>Project Overview:<h4>
-                       <h5>This ongoing individual project involves developing a comprehensive blog posting website using ASP.NET MVC. The primary objective is to enhance my proficiency in professional software development by utilizing high-quality technologies and methodologies.</h5>
-                    <h4>Technologies Used:</h4>
-                    <ul>
-                      <li>C#</li>
-                      <li>ASP.NET MVC</li>
-                      <li>Entity Framework</li>
-                      <li>SQL Server</li>
-                      <li>HTML</li>
-                      <li>JavaScript</li>
-                      <li>Bootstrap</li>
-                      <li>Visual Studio</li>
-                    </ul>
-                    <h4>Objective:</h4>
-                    <h5>The main goal of this project is to gain hands-on experience in creating a full-fledged web application, focusing on implementing best practices in software development, and improving my technical knowledge and skills.</h5>
-                    <h4>Key Features:</h4>
-                    <ul>
-                      <li>User Authentication: Users can register, log in, and manage their accounts.</li>
-                      <li>Blog Management: Users can create, post, like, and comment on blogs.</li>
-                      <li>Image Uploading: Users can upload images to accompany their blog posts.</li>
-                      <li>Tag Creation: Users can create and manage tags for their blog posts.</li>
-                      <li>Admin Panel: Admins have the ability to update or delete any user's content.</li>
-                      <li>Responsive Design: The website is designed to be responsive and user-friendly across various devices.</li>
-                    </ul>
-                    <h4>Challenges and Learning:</h4>
-                    <h5>Throughout the development process, I have encountered and addressed several challenges, such as implementing secure authentication, optimizing database queries with Entity Framework, and ensuring a seamless user experience through responsive design. These experiences have significantly contributed to my understanding of ASP.NET MVC and full-stack web development.</h5>
-                    <h4>My Work</h4>
-                    <ul>
-                      <li>Designed and implemented the database schema using SQL Server and Entity Framework.</li>
-                      <li>Developed the user interface using HTML, JavaScript, and Bootstrap, ensuring a responsive and intuitive design.</li>
-                      <li>Integrated authentication and authorization features to secure user data.</li>
-                      <li>Implemented CRUD (Create, Read, Update, Delete) operations for blog posts and user management.</li>
-                      <li>Continuously testing and debugging to improve application performance and reliability.</li>
-                    </ul>
-                    <h4>Notable Achievements:</h4>
-                    <ul>
-                      <li>Successfully integrated various features, enhancing the functionality and usability of the blog site.</li>
-                      <li>Improved my understanding of MVC architecture and full-stack development.</li>
-                      <li>Gained practical experience in utilizing modern web development tools and frameworks.</li>
-                    </ul>
-                    <h4>References:</h4>
-                    <ul>
-                      <li>Udemy Online Course</li>
-                      <li>YouTube Tutorials</li>
-                    </ul>
-                    <button onclick="toggleContent(this.parentElement, this.parentElement.previousElementSibling, this); return false;" style="display: none;" class="myBtn">Read less</button>
-                </div>
-              </div>
-              <div id="hidden-inner2">
-                  <p><strong><u>2. Hotel Management System(Y2S2 Project)</u></strong> </p>
-                  <button onclick="toggleContent(this.nextElementSibling, this, this.nextElementSibling.querySelector('.myBtn')); return false;" class="myBtn read-more-btn">Read more</button>
-                  <div class="project-description" style="display: none;">
-                    <h4>Duration: February 2024 - May 2024</h4>
-                    <h4>Repository: <a href="https://github.com/shashi2024/Y2S2project">GitHub</a></h4>
-                    <h4>Project Overview:<h4>
-                       <h5>This project involves the development of a comprehensive hotel management system designed to streamline various operations within a hotel. The system was built as part of my second-year second-semester coursework, focusing on applying web development skills and integrating various technologies to create a functional and user-friendly application.</h5>
-                    <h4>Technologies Used:</h4>
-                    <ul>
-                      <li>HTML</li>
-                      <li>JavaScript</li>
-                      <li>ReactJS</li>
-                      <li>NodeJS</li>
-                      <li>Express</li>
-                      <li>MongoDB</li>
-                      <li>Tailwind CSS</li>
-                      <li>Agile Methodology</li>
-                      <li>Postman</li>
-                    </ul>
-                    <h4>Objective:</h4>
-                    <h5>The objective of this project was to create an all-in-one solution for managing hotel operations, from booking and user management to financial and maintenance management, while honing my skills in full-stack web development and project management.</h5>
-                    <h4>Key Features:</h4>
-                    <ul>
-                      <li>User Authentication: Customers can log in to the system and manage their accounts.</li>
-                      <li>Booking Management: Customers can check room availability and book rooms online.</li>
-                      <li>User Management: Hotel management can add, update, and delete user information, manage roles, and permissions.</li>
-                      <li>Maintenance Management: Track and manage maintenance tasks and schedules.</li>
-                      <li>Restaurant Management: Manage restaurant bookings, menus, and orders.</li>
-                      <li>Transport Management: Coordinate transport services for guests.</li>
-                      <li>Guest Management: Keep records of guest information and preferences.</li>
-                      <li>Finance Management: Oversee financial transactions, billing, and reporting.</li>
-                    </ul>
-                    <h4>Challenges and Learning:</h4>
-                    <h5>Throughout the project, I faced several challenges, such as ensuring secure user authentication, integrating various management modules, and optimizing database queries. These challenges provided valuable learning experiences, enhancing my problem-solving skills and understanding of full-stack development.</h5>
-                    <h4>My Contributions:</h4>
-                    <ul>
-                      <li>User Management System: Designed and developed the user management system, including all CRUD (Create, Read, Update, Delete) operations and additional user-related features.</li>
-                      <li>API Integration: Utilized REST APIs for seamless integration of various functionalities within the system.</li>
-                      <li>Front-End Development: Implemented the user interface using ReactJS and Tailwind CSS, ensuring a responsive and intuitive design.</li>
-                      <li>Back-End Development: Developed server-side logic using NodeJS and Express, and managed data storage with MongoDB.</li>
-                      <li>Testing and Debugging: Conducted thorough testing and debugging using Postman to ensure the reliability and performance of the application.</li>
-                    </ul>
-                    <h4>Notable Achievements:</h4>
-                    <ul>
-                      <li>Successfully implemented a multi-faceted hotel management system with various integrated modules.</li>
-                      <li>Gained in-depth knowledge of full-stack development and agile methodologies.</li>
-                      <li>Improved my ability to manage and integrate multiple technologies and tools in a single project.</li>
-                    </ul>
-                    <h4>References:</h4>
-                    <ul>
-                      <li>GIT Copilot</li>
-                      <li>ChatGPT</li>
-                      <li>Online Lectures</li>
-                      <li>YouTube Tutorials</li>
-                    </ul>
-                    <button onclick="toggleContent(this.parentElement, this.parentElement.previousElementSibling, this); return false;" style="display: none;" class="myBtn">Read less</button>
-                  </div>
-              </div>
-              <div id="hidden-inner3">
-                  <p><strong><u>3. Personal Website</u></strong> </p>
-                  <button onclick="toggleContent(this.nextElementSibling, this, this.nextElementSibling.querySelector('.myBtn')); return false;" class="myBtn read-more-btn">Read more</button>
-                  <div class="project-description" style="display: none;">
-                    <h4>Duration: Duration: August 2023 - December 2023</h4>
-                    <h4>Repository: <a href="https://github.com/shashi2024/sashinisewwandi">GitHub</a></h4>
-                    <h4>Project Overview:<h4>
-                       <h5>This project involved the creation of a personal website to showcase my skills, qualifications, CV, blog, projects, contact information, and photos. As my first individual project, it served as a platform to learn and demonstrate my web development capabilities.</h5>
-                    <h4>Technologies Used:</h4>
-                    <ul>
-                      <li>HTML</li>
-                      <li>JavaScript</li>
-                      <li>CSS</li>
-                      <li>Bootstrap</li>
-                      <li>Parallax Effect</li>
-                    </ul>
-                    <h4>Objective:</h4>
-                    <h5>The primary objective of this project was to create a professional and visually appealing website that effectively presents my personal and professional information. This project aimed to provide a comprehensive online portfolio to potential employers and collaborators.</h5>
-                    <h4>Key Features:</h4>
-                    <ul>
-                      <li>Personal Information: Sections dedicated to showcasing my qualifications, CV, and contact details.</li>
-                      <li>Portfolio: Displays my projects, including descriptions, technologies used, and links to repositories.</li>
-                      <li>Photo Gallery: A gallery to display personal and professional photos.</li>
-                      <li>Responsive Design: Although I aimed to make the site fully responsive, implementing responsiveness with the parallax effect proved to be a significant challenge.</li>
-                    </ul>
-                    <h4>Challenges and Learning:</h4>
-                    <h5>Throughout this project, I learned valuable lessons in handling documents, implementing parallax effects, and utilizing various web development technologies. One of the main challenges was achieving a responsive design while maintaining the parallax effect, which required extensive research and experimentation.</h5>
-                    <h4>My Work</h4>
-                    <ul>
-                      <li>Website Design: Designed and implemented the website layout using HTML, CSS, and Bootstrap.</li>
-                      <li>Interactive Features: Added interactive elements and parallax effects using JavaScript to enhance user experience.</li>
-                      <li>Content Management: Regularly update the website with new information, blog posts, and project details.</li>
-                      <li>Hosting: Deployed and maintained the website using GitHub Pages, ensuring continuous availability and updates.</li>
-                      </ul>
-                    <h4>Notable Achievements:</h4>
-                    <ul>
-                      <li>Successfully created and launched my first individual project, establishing a strong online presence.</li>
-                      <li>Gained a comprehensive understanding of front-end web development and deployment processes.</li>
-                      <li>Developed skills in creating responsive and visually appealing web designs despite the challenges with parallax effect implementation.</li>
-                    </ul>
-                    <h4>References:</h4>
-                    <ul>
-                      <li>W3Schools</li>
-                      <li>YouTube Tutorials</li>
-                    </ul>
-                    <button onclick="toggleContent(this.parentElement, this.parentElement.previousElementSibling, this); return false;" style="display: none;" class="myBtn">Read less</button>
-                  </div>
-                </div>
-                <div id="hidden-inner4">
-                  <p><strong><u>4. Online Driving License System (Y1S1 Project)</u></strong> </p>
-                  <button onclick="toggleContent(this.nextElementSibling, this, this.nextElementSibling.querySelector('.myBtn')); return false;" class="myBtn read-more-btn">Read more</button>
-                  <div class="project-description" style="display: none;">
-                    <h4>Duration: February 2023 - May 2023</h4>
-                    <h4>Repository: <a href="https://github.com/shashi2024/Y1S2project">GitHub</a></h4>
-                    <h4>Project Overview:<h4>
-                       <h5>This project involved the implementation of an online driving license system designed to streamline the process of applying for and managing driving licenses. The project was part of my first-year, first-semester coursework, focusing on developing a robust web application using various web development technologies.</h5>
-                    <h4>Technologies Used:</h4>
-                    <ul>
-                      <li>HTML</li>
-                      <li>JavaScript</li>
-                      <li>CSS</li>
-                      <li>Bootstrap</li>
-                      <li>PHP</li>
-                      <li>MySQL</li>
-                    </ul>
-                    <h4>Objective:</h4>
-                    <h5>The primary objective of this project was to create a user-friendly and efficient system for managing driving license applications and records. The project aimed to provide a seamless experience for users and administrators, facilitating various operations related to driving licenses.</h5>
-                    <h4>Key Features:</h4>
-                    <ul>
-                      <li>User Authentication: Users can register and log in to manage their driving license applications.</li>
-                      <li>Application Management: Users can apply for a new driving license, renew an existing license, and track the status of their applications.</li>
-                      <li>CRUD Operations: Implemented Create, Read, Update, and Delete (CRUD) operations for managing user information and applications using PHP and MySQL.</li>
-                      <li>Admin Panel: Administrators can review and process applications, update records, and manage user accounts.</li>
-                      <li>Responsive Design: Ensures the system is accessible and functional across different devices.</li>
-                    </ul>
-                    <h4>Challenges and Learning:</h4>
-                    <h5>development, particularly in server-side scripting with PHP and database management with MySQL. Implementing secure authentication and efficient CRUD operations were significant challenges that provided substantial learning experiences.</h5>
-                    <h4>My Contributions:</h4>
-                    <ul>
-                      <li>Front-End Development: Designed and implemented the user interface using HTML, CSS, Bootstrap, and JavaScript.</li>
-                      <li>CRUD Operations: Implemented all CRUD operations for user and application management.</li>
-                    </ul>
-                    <h4>Notable Achievements:</h4>
-                    <ul>
-                      <li>Successfully developed and deployed a functional online driving license system.</li>
-                      <li>Gained a solid understanding of full-stack web development and database management.</li>
-                      <li>Improved problem-solving skills and the ability to work collaboratively on a complex project.</li>
-                    </ul>
-                    <h4>References:</h4>
-                    <ul>
-                      <li>W3Schools</li>
-                      <li>YouTube Tutorials</li>
-                    </ul>
-                    <button onclick="toggleContent(this.parentElement, this.parentElement.previousElementSibling, this); return false;" style="display: none;" class="myBtn">Read less</button>
-                  </div>
-              </div>
-              <div id="hidden-inner5">
-                  <p><strong><u>5. Multi-Model Emotion and Object Recognition</u></strong> </p>
-                  <button onclick="toggleContent(this.nextElementSibling, this, this.nextElementSibling.querySelector('.myBtn')); return false;" class="myBtn read-more-btn">Read more</button>
-                  <div class="project-description" style="display: none;">
-                    <h4>Duration: January 2024</h4>
-                    <h4>Repository 1: <a href="https://github.com/shashi2024/VoiceEmotionRecognition_ML">GitHub (Multi-Model Emotion Detection)</a></h4>
-                    <h4>Repository 1: <a href="https://github.com/shashi2024/ImageDetection_ML">GitHub (Object Recognition)</a></h4>
-                    <h4>Project Overview:<h4>
-                       <h5>This project involved developing a multi-model system capable of recognizing emotions from images and voices. It utilized the CIFAR-10 dataset for object recognition and the Kaggle Ravdess dataset for emotion recognition. This project was completed as the final project for my machine learning course.</h5>
-                    <h4>Technologies Used:</h4>
-                    <ul>
-                      <li>Python</li>
-                      <li>Keras</li>
-                      <li>CIFAR-10 Dataset</li>
-                      <li>Kaggle Ravdess Dataset</li>
-                    </ul>
-                    <h4>Objective:</h4>
-                    <h5>The primary objective of this project was to implement and evaluate machine learning models for emotion and object recognition. By leveraging image and voice data, the project aimed to create a system that can accurately identify emotions and objects, showcasing the practical applications of machine learning in multimodal data processing.</h5>
-                    <h4>Key Features:</h4>
-                    <ul>
-                      <li>Emotion Recognition from Images: Utilized convolutional neural networks (CNNs) to classify emotions from images using the CIFAR-10 dataset.</li>
-                      <li>Emotion Recognition from Voices: Implemented models to classify emotions from voice recordings using the Kaggle Ravdess dataset.</li>
-                      <li>Model Training and Evaluation: Trained models on labeled datasets and evaluated their performance using various metrics to ensure accuracy and reliability.</li>
-                      <li>Integration of Multi-Modal Data: Combined image and voice data to enhance the system's ability to recognize and interpret emotions.</li>
-                    </ul>
-                    <h4>Challenges and Learning:</h4>
-                    <h5>Throughout the project, I faced several challenges, including handling and preprocessing large datasets, tuning hyperparameters for optimal model performance, and integrating multimodal data. These challenges provided valuable learning experiences, deepening my understanding of machine learning and data processing techniques.</h5>
-                    <h4>My Work:</h4>
-                    <ul>
-                      <li>Data Preprocessing: Preprocessed the CIFAR-10 and Ravdess datasets to prepare them for model training.</li>
-                      <li>Model Development: Developed and fine-tuned CNN models for emotion and object recognition using Keras.</li>
-                      <li>Performance Evaluation: Evaluated model performance using accuracy, precision, recall, and F1-score metrics.</li>
-                      <li>Integration: Successfully integrated image and voice recognition models to create a comprehensive emotion recognition system.</li>
-                    </ul>
-                    <h4>Notable Achievements:</h4>
-                    <ul>
-                      <li>Successfully developed a multi-model system for emotion and object recognition.</li>
-                      <li>Improved my understanding of convolutional neural networks and multimodal data processing.</li>
-                      <li>Gained practical experience in handling and analyzing large datasets.</li>
-                    </ul>
-                    <h4>References:</h4>
-                    <ul>
-                      <li>Kaggle</li>
-                      <li>Online Lectures</li>
-                      <li>YouTube Tutorials</li>
-                    </ul>
-                    <button onclick="toggleContent(this.parentElement, this.parentElement.previousElementSibling, this); return false;" style="display: none;" class="myBtn">Read less</button>
-                  </div>
-              </div>
-              <!-- <div id="hidden-inner6">
-                  6. ForWarD - Stress & Study Management App and Website
-                  <button onclick="toggleContent(this.nextElementSibling, this, this.nextElementSibling.querySelector('.myBtn')); return false;" class="myBtn read-more-btn">Read more</button>
-                  <div class="project-description" style="display: none;">
-                    <h4>Duration: February 2024 - March 2024</h4>
-                    <h4>Repository: <a href="your-github-repo-link">GitHub</a></h4>
-                    <h4>Project Overview:<h4>
-                       <h5>ForWarD is a comprehensive stress and study management app and website designed to assist learners in managing their day-to-day lives efficiently, especially when working under pressure. This project, associated with SLIIT, integrates various features to promote relaxation and effective time management.</h5>
-                    <h4>Technologies Used:</h4>
-                    <ul>
-                      <li>Android Studio</li>
-                      <li>Kotlin</li>
-                      <li>ReactJS</li>
-                      <li>NodeJS</li>
-                      <li>Express</li>
-                      <li>MongoDB</li>
-                      <li>Tailwind CSS</li>
-                      <li>Agile Methodology</li>
-                      <li>Postman</li>
-                    </ul>
-                    <h4>Objective:</h4>
-                    <h5>The objective of this project was to create an all-in-one solution for managing hotel operations, from booking and user management to financial and maintenance management, while honing my skills in full-stack web development and project management.</h5>
-                    <h4>Key Features:</h4>
-                    <ul>
-                      <li>User Authentication: Customers can log in to the system and manage their accounts.</li>
-                      <li>Booking Management: Customers can check room availability and book rooms online.</li>
-                      <li>User Management: Hotel management can add, update, and delete user information, manage roles, and permissions.</li>
-                      <li>Maintenance Management: Track and manage maintenance tasks and schedules.</li>
-                      <li>Restaurant Management: Manage restaurant bookings, menus, and orders.</li>
-                      <li>Transport Management: Coordinate transport services for guests.</li>
-                      <li>Guest Management: Keep records of guest information and preferences.</li>
-                      <li>Finance Management: Oversee financial transactions, billing, and reporting.</li>
-                    </ul>
-                    <h4>Challenges and Learning:</h4>
-                    <h5>Throughout the project, I faced several challenges, such as ensuring secure user authentication, integrating various management modules, and optimizing database queries. These challenges provided valuable learning experiences, enhancing my problem-solving skills and understanding of full-stack development.</h5>
-                    <h4>My Contributions:</h4>
-                    <ul>
-                      <li>User Management System: Designed and developed the user management system, including all CRUD (Create, Read, Update, Delete) operations and additional user-related features.</li>
-                      <li>API Integration: Utilized REST APIs for seamless integration of various functionalities within the system.</li>
-                      <li>Front-End Development: Implemented the user interface using ReactJS and Tailwind CSS, ensuring a responsive and intuitive design.</li>
-                      <li>Back-End Development: Developed server-side logic using NodeJS and Express, and managed data storage with MongoDB.</li>
-                      <li>Testing and Debugging: Conducted thorough testing and debugging using Postman to ensure the reliability and performance of the application.</li>
-                    </ul>
-                    <h4>Notable Achievements:</h4>
-                    <ul>
-                      <li>Successfully implemented a multi-faceted hotel management system with various integrated modules.</li>
-                      <li>Gained in-depth knowledge of full-stack development and agile methodologies.</li>
-                      <li>Improved my ability to manage and integrate multiple technologies and tools in a single project.</li>
-                    </ul>
-                    <h4>References:</h4>
-                    <ul>
-                      <li>GIT Copilot</li>
-                      <li>ChatGPT</li>
-                      <li>Online Lectures</li>
-                      <li>YouTube Tutorials</li>
-                    </ul>
-                    <button onclick="toggleContent(this.parentElement, this.parentElement.previousElementSibling, this); return false;" style="display: none;" class="myBtn">Read less</button>
-                  </div>
-              </div> -->
+              <div class="tag" id="tag1">C</div>
+              <div class="tag" id="tag2">C++</div>
+              <div class="tag" id="tag3">C#</div>
+              <div class="tag" id="tag4">Python</div>
+              <div class="tag" id="tag5">Java</div>
+              <div class="tag" id="tag6">Kotlin</div>
+              <div class="tag" id="tag7">Java</div>
+              <div class="tag" id="tag8">JavaScript</div>
+              <div class="tag" id="tag9">HTML</div>
+              <div class="tag" id="tag10">Express</div>
+              <div class="tag" id="tag11">Node.js</div>
+              <div class="tag" id="tag12">SQL</div>
+              <div class="tag" id="tag13">MongoDB</div>
+              <div class="tag" id="tag14">React.js</div>
+              <div class="tag" id="tag15">CSS</div>
+              <div class="tag" id="tag16">Figma</div>
+              <div class="tag" id="tag17">Tailwind CSS</div>
+              <div class="tag" id="tag18">Linux</div>
+              <div class="tag" id="tag19">Bootstrap</div>
+              <div class="tag" id="tag20">GIT</div>
+              <div class="tag" id="tag21">DevOps</div>
+              <div class="tag" id="tag22">Docker</div>
+              <div class="tag" id="tag23">Azure</div>
+              <div class="tag" id="tag24">.Net Framework</div>
+              <div class="tag" id="tag25">Asp.Net MVC</div>
+              <div class="tag" id="tag26">Postman</div>
+              <div class="tag" id="tag27">Machine Learning</div>
+              <div class="tag" id="tag28">Cloud Computing</div>
             </div>
           </div>
         </div>
@@ -441,33 +280,100 @@
         <div class="inner" id="inner4">
           <div class="centerInner">
             <div class="divInner">
-              <h2>GALLERY</h2>
-              <button onClick="myFunction4()">+</button>
+              <h2>PROJECTS</h2>
+              <!-- <button onClick="myFunction4()">+</button> -->
             </div>
-            <div id="hidden4" style="display: none">
+            <div id="hidden4">
               <div class="gallery">
-                <div class="gallery-item"><img src="./images/image6.jpg" alt="Image 1"></div>
-                <div class="gallery-item"><img src="./images/image7.jpeg" alt="Image 2"></div>
-                <div class="gallery-item"><img src="./images/image8.jpg" alt="Image 3"></div>
-                <div class="gallery-item"><img src="./images/image9.jpg" alt="Image 4"></div>
-                <div class="gallery-item"><img src="./images/image10.jpg" alt="Image 5"></div>
-                <div class="gallery-item"><img src="./images/image11.jpg" alt="Image 6"></div>
-                <div class="gallery-item"><img src="./images/image12.jpg" alt="Image 7"></div>
-                <div class="gallery-item"><img src="./images/image13.jpeg" alt="Image 8"></div>
-                <div class="gallery-item"><img src="./images/image14.jpeg" alt="Image 9"></div>
-                <div class="gallery-item"><img src="./images/image15.jpg" alt="Image 10"></div>
-                <div class="gallery-item"><img src="./images/image16.jpg" alt="Image 11"></div>
-                <div class="gallery-item"><img src="./images/image17.jpg" alt="Image 12"></div>
-                <div class="gallery-item"><img src="./images/image18.jpg" alt="Image 13"></div>
-                <div class="gallery-item"><img src="./images/image19.png" alt="Image 14"></div>
-                <div class="gallery-item"><img src="./images/image20.png" alt="Image 15"></div>
-                <div class="gallery-item"><img src="./images/image21.jpg" alt="Image 16"></div>
-                <div class="gallery-item"><img src="./images/image23.png" alt="Image 17"></div>
-                <div class="gallery-item"><img src="./images/image24.png" alt="Image 18"></div>
-                <div class="gallery-item"><img src="./images/image25.png" alt="Image 19"></div>
-                <div class="gallery-item"><img src="./images/image26.jpg" alt="Image 20"></div>
-                <div class="gallery-item"><img src="./images/image27.png" alt="Image 21"></div>
-                <div class="gallery-item"><img src="./images/image28.png" alt="Image 22"></div>
+                <div class="gallery-item">
+                  <img
+                    src="./images/image22.png"
+                    alt="img1"
+                    data-aos="flip-left"
+                  />
+                  <div class="tags">
+                    <div class="tags-inner">MySQL</div>
+                    <div class="tags-inner">PHP</div>
+                    <div class="tags-inner">CSS</div>
+                    <div class="tags-inner">HTML</div>
+                    <div class="tags-inner">JavaScript</div>
+                    <div class="tags-content">
+                      Y1S2 Project - Online Driving License System
+                      <a href="https://github.com/shashi2024/Y1S2project" >Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-item">
+                  <img
+                    src="./images/image30.png"
+                    alt="img2"
+                    data-aos="flip-left"
+                  />
+                  <div class="tags">
+                    <div class="tags-inner">C#</div>
+                    <div class="tags-inner">ASP.NET</div>
+                    <div class="tags-inner">MYSQL</div>
+                    <div class="tags-inner">MVC</div>
+                    <div class="tags-inner">Bootstrap</div>
+                    <div class="tags-content">
+                      Blog Posting Web Site using - ASP.NET MVC
+                      <a href="https://github.com/shashi2024/ASP.NET-MVC-project" >Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-item">
+                  <img
+                    src="./images/image31.png"
+                    alt="img3"
+                    data-aos="flip-left"
+                  />
+                  <div class="tags">
+                    <div class="tags-inner">MERN</div>
+                    <div class="tags-inner">Agile</div>
+                    <div class="tags-inner">HTML</div>
+                    <div class="tags-inner">Tailwind</div>
+                    <div class="tags-inner">JavaScript</div>
+                    <div class="tags-content">
+                      Y2S2 Project Hotel Management System
+                      <a href="https://github.com/shashi2024/Y2S2project" >Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-item">
+                  <img
+                    src="./images/image32.png"
+                    alt="img4"
+                    data-aos="flip-left"
+                  />
+                  <div class="tags">
+                    <div class="tags-inner">css</div>
+                    <div class="tags-inner">html</div>
+                    <div class="tags-inner">Javascript</div>
+                    <div class="tags-inner">Bootstrap</div>
+                    <div class="tags-inner">Visual Studio</div>
+                    <div class="tags-content">
+                      Portfolio Website
+                      <a href="https://github.com/shashi2024/sashinisewwandi" >Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-item">
+                  <img
+                    src="./images/image33.jpg"
+                    alt="img4"
+                    data-aos="flip-left"
+                  />
+                  <div class="tags">
+                    <div class="tags-inner">Python</div>
+                    <div class="tags-inner">Jupyter NoteBook</div>
+                    <div class="tags-inner">ML</div>
+                    <div class="tags-inner">Keras</div>
+                    <div class="tags-content">
+                      Multi-Model Emotion and Object Recognition
+                      <a href="https://github.com/shashi2024/VoiceEmotionRecognition_ML" >Read More</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -478,67 +384,101 @@
     <section id="contact">
       <div class="inner" id="inner5">
         <div class="centerInner">
-          <div class="divInner">
+          <div class="divInner-change">
             <h2>CONTACT ME</h2>
-            <!-- <button onClick="myFunction5 ()">+</button> -->
           </div>
           <div id="hidden5">
-            <div class="social_media">
-    
-              <div class="icon-link">
-                <i class="fab fa-facebook"></i>
-                <div class="hidden-content" href="https://www.facebook.com/profile.php?id=100045098769661&mibextid=ZbWKwL">
-                  https://www.facebook.com/profile.php?id=100045098769661&mibextid=ZbWKwL
+            <div class="contact-div">
+              <div class="contact-inner" id="details">
+                <p>Feel free to visit my LinkedIn, GitHub, and blog 
+                for more insights into my work. If there's an opportunity 
+                you'd like to discuss or if you're interested in connecting, 
+                don't hesitate to reach out. Let's collaborate and grow together!</p>
+                
+              </div>
+              <div class="contact-inner" id="links">
+                <div class="contact-main">
+                  <div class="read" style="padding-right: 0.5rem">
+                    <i
+                      class="fa-solid fa-location-dot"
+                      style="padding-top: 2rem"
+                    ></i>
+                    <p>P - 57, <br />Police College, <br />Kalutara South</p>
+                  </div>
+                  <div class="read">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>sashinisithara20@gmail.com</p>
+                  </div>
+                  <div class="read">
+                    <i class="fa-solid fa-mobile"></i>
+                    <p>+94769981690</p>
+                  </div>
+                </div>
+                <div class="contact-next">
+                  <div class="click">
+                    <a
+                      href="https://github.com/shashi2024"
+                      style="color: inherit"
+                    >
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+                  </div>
+                  <div class="click">
+                    <a
+                      href="https://www.linkedin.com/in/sashini-sewwandi-0b09a7241"
+                      style="color: inherit"
+                    >
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                  </div>
+                  <div class="click">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100045098769661&mibextid=ZbWKwL"
+                      style="color: inherit"
+                    >
+                      <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="click">
+                    <a
+                      href="https://shashisblogs2000.blogspot.com/"
+                      style="color: inherit"
+                    >
+                      <i class="fa-brands fa-blogger"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
-
-              <div class="icon-link">
-                <i class="fab fa-linkedin"></i>
-                <div class="hidden-content">
-                  https://www.linkedin.com/in/sashini-sewwandi-0b09a7241/
-                </div>
-              </div>
-    
-              <div class="icon-link">
-                <i class="fa-brands fa-whatsapp"></i>
-                <div class="hidden-content">
-                  0769981690
-                </div>
-              </div>
-    
-              <div class="icon-link">
-                <i class="fa-solid fa-envelope"></i>
-                <div class="hidden-content">
-                  sashinisithara20@gmail.com
-                </div>
-              </div>
-    
-              <div class="icon-link">
-                <i class="fa-brands fa-github"></i>
-                <div class="hidden-content">
-                  https://github.com/shashi2024
-                </div>
-              </div>
-    
-              <div class="icon-link">
-                <i class="fa-solid fa-phone-volume"></i>
-                <div class="hidden-content">
-                  0769981690
-                </div>
-              </div>
-
             </div>
           </div>
 
           <div id="link-display"></div>
-
         </div>
       </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/5f5de72cc0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/5f5de72cc0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
